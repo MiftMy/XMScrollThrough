@@ -15,6 +15,8 @@
 		2C66F38A2216588B0017DA8C /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 2C66F3892216588B0017DA8C /* main.m */; };
 		2C66F3942216588B0017DA8C /* XMScrollThroughTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 2C66F3932216588B0017DA8C /* XMScrollThroughTests.m */; };
 		2C66F39F2216588B0017DA8C /* XMScrollThroughUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 2C66F39E2216588B0017DA8C /* XMScrollThroughUITests.m */; };
+		2C66F3AE221658A60017DA8C /* FatherScrollView.m in Sources */ = {isa = PBXBuildFile; fileRef = 2C66F3AD221658A60017DA8C /* FatherScrollView.m */; };
+		2C66F3B1221658B30017DA8C /* SonScrollView.m in Sources */ = {isa = PBXBuildFile; fileRef = 2C66F3B0221658B30017DA8C /* SonScrollView.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -51,6 +53,10 @@
 		2C66F39A2216588B0017DA8C /* XMScrollThroughUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = XMScrollThroughUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		2C66F39E2216588B0017DA8C /* XMScrollThroughUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = XMScrollThroughUITests.m; sourceTree = "<group>"; };
 		2C66F3A02216588B0017DA8C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		2C66F3AC221658A60017DA8C /* FatherScrollView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = FatherScrollView.h; sourceTree = "<group>"; };
+		2C66F3AD221658A60017DA8C /* FatherScrollView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = FatherScrollView.m; sourceTree = "<group>"; };
+		2C66F3AF221658B30017DA8C /* SonScrollView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SonScrollView.h; sourceTree = "<group>"; };
+		2C66F3B0221658B30017DA8C /* SonScrollView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SonScrollView.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -105,6 +111,10 @@
 				2C66F37B2216588A0017DA8C /* AppDelegate.m */,
 				2C66F37D2216588A0017DA8C /* ViewController.h */,
 				2C66F37E2216588A0017DA8C /* ViewController.m */,
+				2C66F3AC221658A60017DA8C /* FatherScrollView.h */,
+				2C66F3AD221658A60017DA8C /* FatherScrollView.m */,
+				2C66F3AF221658B30017DA8C /* SonScrollView.h */,
+				2C66F3B0221658B30017DA8C /* SonScrollView.m */,
 				2C66F3802216588A0017DA8C /* Main.storyboard */,
 				2C66F3832216588B0017DA8C /* Assets.xcassets */,
 				2C66F3852216588B0017DA8C /* LaunchScreen.storyboard */,
@@ -263,6 +273,8 @@
 			buildActionMask = 2147483647;
 			files = (
 				2C66F37F2216588A0017DA8C /* ViewController.m in Sources */,
+				2C66F3AE221658A60017DA8C /* FatherScrollView.m in Sources */,
+				2C66F3B1221658B30017DA8C /* SonScrollView.m in Sources */,
 				2C66F38A2216588B0017DA8C /* main.m in Sources */,
 				2C66F37C2216588A0017DA8C /* AppDelegate.m in Sources */,
 			);
